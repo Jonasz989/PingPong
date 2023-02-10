@@ -14,14 +14,23 @@ Gracze jednej drużyny powinni być wątkami realizującymi tę samą metodę ru
 Ponadto w aplikacji powinna istnieć możliwość ustawiania prędkości przemieszczania się wątków graczy i piłek (aby dało się obserwować różnice w zachowaniach przy różnych parametrach symulacji).
 Chyba najprostszym sposobem wizualizacji tego, co się w laboratorium dzieje, jest użycie etykiet tekstowych jak na schemacie poniżej (liczby po bokach, tutaj na dwóch pozycjach, informują o liczbie piłek, które doleciały do końca danego wiersza; symbol # reprezentuje piłkę; literki reprezentują graczy). Oczywiście można zaimplementować inną graficzną reprezentację.
 00a..._...a00
+
 00...._....00
+
 00..#._....00
+
 00b..._...b00
+
 05...._.#..00
+
 00...._...c00
+
 00....#....04
+
 03c..._....00
+
 00...._....00
+
 00...._....02
 Pozostałe szczegóły mają być zgodne z ustaleniami poczynionymi na początku zajęć.
 
@@ -38,13 +47,22 @@ Players of one team should be threads executing the same run() method. The balls
 In addition, it should be possible to set the speed of the player threads and ball threads in the application (so that it is possible to observe differences in behaviour with different simulation parameters).
 Probably the simplest way to visualise what is happening in the lab is to use text labels as in the diagram below (the numbers on the sides, here at two positions, indicate the number of balls that have made it to the end of a given row; the # symbol represents the ball; the letters represent the players). Of course, another graphical representation can be implemented.
 00a..._...a00
+
 00...._....00
+
 00..#._....00
+
 00b..._...b00
+
 05...._.#..00
+
 00...._...c00
+
 00....#....04
+
 03c..._....00
+
 00...._....00
+
 00...._....02
 The remaining details are to be as agreed at the beginning of the class.
