@@ -13,6 +13,7 @@ W wierszach pierwszej i ostatniej kolumny powinny pojawiać się liczby mówiąc
 Gracze jednej drużyny powinni być wątkami realizującymi tę samą metodę run(). Piłki powinny być wątkami realizującymi tę samą metodę run(). Wątek generujący piłki powinien mieć własną metodę run(). Należy zapewnić synchronizację pomiędzy wątkami. Proszę zastanowić się, na czym polegać ma ta synchronizacja, co będzie zasobem współdzielonym itd.
 Ponadto w aplikacji powinna istnieć możliwość ustawiania prędkości przemieszczania się wątków graczy i piłek (aby dało się obserwować różnice w zachowaniach przy różnych parametrach symulacji).
 Chyba najprostszym sposobem wizualizacji tego, co się w laboratorium dzieje, jest użycie etykiet tekstowych jak na schemacie poniżej (liczby po bokach, tutaj na dwóch pozycjach, informują o liczbie piłek, które doleciały do końca danego wiersza; symbol # reprezentuje piłkę; literki reprezentują graczy). Oczywiście można zaimplementować inną graficzną reprezentację.
+
 00a..._...a00
 
 00...._....00
@@ -32,6 +33,7 @@ Chyba najprostszym sposobem wizualizacji tego, co się w laboratorium dzieje, je
 00...._....00
 
 00...._....02
+
 Pozostałe szczegóły mają być zgodne z ustaleniami poczynionymi na początku zajęć.
 
 
@@ -46,6 +48,7 @@ The rows of the first and last columns should show numbers indicating how many b
 Players of one team should be threads executing the same run() method. The balls should be threads executing the same run() method. The thread generating the balls should have its own run() method. Synchronisation between threads should be ensured. Please consider what this synchronisation should consist of, what will be a shared resource, etc.
 In addition, it should be possible to set the speed of the player threads and ball threads in the application (so that it is possible to observe differences in behaviour with different simulation parameters).
 Probably the simplest way to visualise what is happening in the lab is to use text labels as in the diagram below (the numbers on the sides, here at two positions, indicate the number of balls that have made it to the end of a given row; the # symbol represents the ball; the letters represent the players). Of course, another graphical representation can be implemented.
+
 00a..._...a00
 
 00...._....00
@@ -65,4 +68,5 @@ Probably the simplest way to visualise what is happening in the lab is to use te
 00...._....00
 
 00...._....02
+
 The remaining details are to be as agreed at the beginning of the class.
